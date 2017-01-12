@@ -36,5 +36,5 @@ If we asked an express server to find an object by its ID and update some of it'
 - Can you delete the document
 - Run the script and check via the mongo shell that it worked
 
-[MongoDB driver for Node](https://www.npmjs.com/package/mongodb)
-[MongoClient](https://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html)
+- [MongoDB driver for Node](https://www.npmjs.com/package/mongodb)
+- [MongoClient](https://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html)
