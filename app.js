@@ -10,7 +10,7 @@ var url = 'mongodb://localhost:27017/people';
 // Defines a function insertCollection:
 function insertCollection(db, callback) {
   db.collection('self').insert(
-  { "name": "an", "age": 30 },
+  { "_id": 1, "name": "an", "age": 30 },
   function(err, result) {
     console.dir("PERSON ADDED", result);
     callback();
@@ -20,7 +20,7 @@ function insertCollection(db, callback) {
 // db.collection.update(query, update, options)
 function updateDocument(db, callback) {
   db.collection('self').update(
-  { "name": "an" },
+  {"_id": 1, "name": "an" },
   { $set: { "age" : 31 } },
   function(err, result){
     console.dir("AGE UPDATED", result);
@@ -71,10 +71,5 @@ MongoClient.connect(url, function (err, db) {
     console.log('Connection established to', url);
   }
 });
-
-
-
-
-
 
 
