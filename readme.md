@@ -58,16 +58,27 @@ db.collection.update({ _id: { $set: ### } })
 
 ## Can you?
 [x] Install the MongoDB node module
+
 [x] require the module inside `app.js`
+
 [x] Inside app.js - connect to a mongoDB
+
 [x] Insert your name and age into a collection
+
 [x] Run the script and check via the mongo shell that it worked
-[ ] Can you update your age 
-[ ] Run the script and check via the mongo shell that it worked
-[ ] Can you find the document with your name as a criteria
-[ ] Run the script and check via the mongo shell that it worked
-[ ] Can you delete the document
-[ ] Run the script and check via the mongo shell that it worked
+
+[x] Can you update your age 
+
+[x] Run the script and check via the mongo shell that it worked
+
+[x] Can you find the document with your name as a criteria
+
+[x] Run the script and check via the mongo shell that it worked
+
+[x] Can you delete the document
+
+[x] Run the script and check via the mongo shell that it worked
+
 
 - [MongoDB driver for Node](https://www.npmjs.com/package/mongodb)
 - [MongoClient](https://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html)
